@@ -1,4 +1,4 @@
-package com.galvanize.badgearamaregistration;
+package com.galvanize.assessment5.sender;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class BadgeARamaRegistrationApplication {
-    private static final Logger LOGGER = LoggerFactory.getLogger(BadgeARamaRegistrationApplication.class);
+public class MQSenderApplication {
+    private static final Logger LOGGER = LoggerFactory.getLogger(MQSenderApplication.class);
     public static void main(String[] args) {
-        SpringApplication.run(BadgeARamaRegistrationApplication.class, args);
+        SpringApplication.run(MQSenderApplication.class, args);
     }
 
     @Bean

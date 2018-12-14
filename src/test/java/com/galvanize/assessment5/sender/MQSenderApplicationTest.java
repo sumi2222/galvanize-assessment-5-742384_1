@@ -1,14 +1,13 @@
-package com.galvanize.badgearamaregistration;
+package com.galvanize.assessment5.sender;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BadgeARamaRegistrationApplicationTests {
+public class MQSenderApplicationTest {
 
     @Test
     public void contextLoads() {
