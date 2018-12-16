@@ -1,4 +1,4 @@
-package com.galvanize.assessment5.sender;
+package com.galvanize.assessment5.sender.galvanizeassessment5742384_1;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MQSenderApplicationTest {
+public class GalvanizeAssessment57423841ApplicationTests {
 
     @Test
     public void contextLoads() {
     }
 
 }
+
