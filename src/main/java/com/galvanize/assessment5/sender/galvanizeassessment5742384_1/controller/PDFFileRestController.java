@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/sender/rest")
+@RequestMapping("/sender")
 public class PDFFileRestController {
     private static final Logger LOGGER = LoggerFactory.getLogger(PDFFileRestController.class);
     private final RabbitMQSenderService mqSenderService;
